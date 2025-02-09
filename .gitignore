@@ -1,0 +1,42 @@
+# General
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
+
+# Environment and Config
+.env
+coral-sanctuary-450107-b3-77a1c21aa697.json  # Credentials - VERY IMPORTANT
+# config.py  # Consider carefully; see notes below
+
+# IDE and Editor Specific
+.vscode/
+.idea/
+*.swp
+*~
+.ipynb_checkpoints/
+Untitled.ipynb  # Generally, ignore Jupyter Notebooks in progress
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Logs
+logs/
+*.log
+
+# Data Files (Consider carefully)
+# Large CSV files should typically be ignored unless they are *small* and *essential* for the repo
+recon_data_raw.csv
+recon_data_reply.csv
+recon_data_reply_small.csv
+
+# Docker related files (but not the Dockerfile itself!)
+.dockerignore
+
+# OS generated files
+._*

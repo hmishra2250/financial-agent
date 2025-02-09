@@ -1,0 +1,26 @@
+Pattern Analysis Report
+
+Cluster 0:
+  Number of records: 7
+  Average comment length: 79.71
+  Sample comments:
+    - The missing order ID has been found, and the data has been updated accordingly.
+    - The missing order ID has been found, and the data has been updated accordingly.
+    - The reconciliation has been completed. The records now align across all platforms.
+
+Cluster 1:
+  Number of records: 3
+  Average comment length: 108.33
+  Sample comments:
+    - The wrong account was initially credited, but the transaction has been rectified and processed correctly.
+    - The wrong account was initially credited, but the transaction has been rectified and processed correctly.
+    - The status has been updated, and all records now reflect accurate information and you can download the report again
+
+Cluster 2:
+  Number of records: 6
+  Average comment length: 88.17
+  Sample comments:
+    - The discrepancy was due to an incorrect payment method. ItÕs now corrected and reconciled.
+    - The customer provided the correct payment reference, and the discrepancy was cleared.
+    - Please update the missing fields, and weÕll reprocess the transaction for reconciliation.
+
