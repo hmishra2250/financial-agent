@@ -151,7 +151,7 @@ This project implements an agentic framework to process financial discrepancies,
                                                                    │
                                                                    ▼
 ┌──────────────────┐       ┌─────────────────────┐       ┌─────────┴──────────────┐
-│Resolution Handler│◀──────│  Comments Dataset    │──────▶│ Reporting & Analytics  │
+│Resolution Handler│◀──────│  Comments Dataset   │──────▶│ Reporting & Analytics │
 │   (LLM + Logic)  │       │                     │       │                        │
 └──────────────────┘       └─────────────────────┘       └────────────────────────┘
 ```
@@ -239,15 +239,15 @@ This section describes how to build, push, and deploy the application using Dock
 1.  **Clone the Repository**:
 
     ```bash
-    git clone <your-repository-url>
-    cd <your-repository-name>
+    git clone https://github.com/hmishra2250/financial-agent.git
+    cd financial-agent
     ```
 
 2.  **Create a Virtual Environment (Recommended)**:
 
     ```bash
     python3 -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    source venv/bin/activate  
     ```
 
 3.  **Install Dependencies**:
